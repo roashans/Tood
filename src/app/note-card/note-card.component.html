@@ -1,0 +1,14 @@
+<div #container class="note-card-container">
+    <a [routerLink]="link">
+        <div class="note-card-content">
+            <div class="note-card-title"> {{ title }} </div>
+            <div #bodyText class="note-card-body">
+                <p> {{ body }} </p>
+                <div #truncator class="fade-out-truncation"></div>
+            </div>
+        </div>
+    </a>
+    <div class="x-button" (click)="onXButtonClick()"></div> 
+    <!-- notecard.ts(eventEmitOutput) => noteslist.html(toGetIdFromIteration) => noteslist.ts(callServiceDeleteFunction) -->
+
+</div>
