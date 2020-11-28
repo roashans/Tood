@@ -17,3 +17,11 @@ input[type=text].ng-touched:focus{
 }
 
 
+/* For phone screens */
+@media (max-width: 500px){
+    .form-container {   
+        max-width: 500px;
+        margin: auto;
+        margin: 50px 25px;
+    }
+}

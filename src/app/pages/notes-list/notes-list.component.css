@@ -31,3 +31,12 @@ app-note-card {
     font-size: 1.5rem;
 }
 
+/* For phone screens */
+@media (max-width: 500px){
+    .main-container {
+        width: 315px;
+    }   
+    .floating-add-button {
+        width: 315px;
+    }
+}
